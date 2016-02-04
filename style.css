@@ -1,0 +1,186 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family:'Roboto Condensed', sans-serif;, Helvetica, Arial, Sans-serif;
+	text-align: center;
+}
+
+h1{
+	font-weight: lighter;
+}
+
+h2{
+	font-size: 28px;
+	color: #E91E63;
+	margin-top: 0;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	padding: 10px 30px;
+	font-size: 18px;
+	background-color: #E91E63;
+	border-radius: 30px;
+	-webkit-box-shadow: 0px 2px 6px 1px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 2px 6px 1px rgba(0,0,0,0.4);
+	box-shadow: 0px 2px 6px 1px rgba(0,0,0,0.4);
+}
+
+a:active{
+	background-color: #9C0538;
+}
+
+input{
+
+	width: 80%;
+	max-width: 900px;
+	height: 40px;
+	border: 0;
+	border-radius: 20px;
+	color: #4D4D4D;
+	padding-left: 20px;
+	font-size: 18px;
+	text-align: left;
+}
+
+button{
+	border: 0;
+    background-color: #E91E63;
+    color: white;
+    font-size: 18px;
+    padding: 10.5px;
+    margin-left: -130px;
+    border-radius: 30px;
+    width: 130px;
+}
+
+button:active{
+	background-color: #9C0538;
+}
+input, button{
+	outline: none;
+}
+
+portada{
+	background-color: #3F51B5;
+	width: 100%;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 150px 0;
+	background-image: url("recursos/bg-portada.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+portada img{
+	width: 30%;
+	min-width: 320px;
+}
+
+facebook{
+	display: block;
+	background-color: #3F51B5;
+	margin-top: -16px;
+	text-align: center;
+	color: white;
+	overflow: hidden;
+	padding: 50px 0;
+}
+
+facebook p{
+	font-size: 24px;
+	margin: 0 auto 30px auto;
+	width: 90%;
+
+}
+
+carrera{
+	display: block;
+	padding: 50px 0;
+}
+
+carrera div{
+	width: 90%;
+	max-width: 710px;
+	background-color: #E91E63;
+	margin: auto;
+	border-radius: 6px;
+	overflow: hidden;
+	color: white;
+	text-align: left;
+}
+
+matricula{
+	display: block;
+	width: 55%;
+	float: left;
+	overflow: hidden;
+	padding: 10px 0 10px 5%;
+}
+
+matricula p{
+	font-size: 48px;
+	margin: 0;
+	float: left;
+}
+
+matricula span{
+	float: left;
+	font-size: 98px;
+}
+
+clases{
+	width: 30%;
+	float: right;
+	padding:10px 5% ;
+	display: block;
+}
+
+clases p{
+	margin: 0;
+	font-size: 18px;
+	font-weight: lighter;
+}
+
+oferta{
+	display: block;
+	width: 100%;
+	text-align: center;
+	background-color: #9C0538;
+	color: white;
+	font-weight: lighter;
+	overflow: hidden;
+	padding: 10px 0;
+	font-size: 18px;
+}
+
+footer{
+	background-color: #333333;
+	padding: 30px 0;
+	color: white;
+}
+
+
+@media only screen and (max-width: 575px){
+
+	matricula{
+	display: block;
+	width: 90%;
+	float: none;
+	overflow: hidden;
+	margin: auto;
+	padding: 0;
+	}
+
+	clases{
+	width: 90%;
+	float: none;
+	padding:10px 0;
+	margin: auto;
+	text-align: center;
+	border-top: 1px solid white;
+	}
+
+}
